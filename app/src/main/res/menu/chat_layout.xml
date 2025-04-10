@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/mCamera"
+            android:icon="@drawable/baseline_camera_alt"
+            android:title="Camera"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/mNovo_grupo"
+            android:title="Novo Grupo"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mNova_transmissao"
+            android:title="Nova Transmissão"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mDispositivos_conectados"
+            android:title="Dispositivos Conectados"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mMensagens_favoritas"
+            android:title="Mensagens Favoritas"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mEncontrar_empresas"
+            android:title="Encontrar Empresas"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mPagamentos"
+            android:title="Pagamentos"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mMarcar_tudo_como_lida"
+            android:title="Marcar Tudo Como Lida"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mConfiguracoes"
+            android:title="Configurações"
+            app:showAsAction="never" />
+
+
+
+    </menu>

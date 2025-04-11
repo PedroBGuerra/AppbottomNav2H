@@ -7,11 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".ChatActivity">
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:menu="@menu/chat_layout"
-        app:title="WhatsApp 2"/>
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="#25d366"
+            app:menu="@menu/chat_layout"
+            app:title="WhatsApp "/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint="Pergunte a Ia "
+            android:layout_below="@+id/Appbar"
+            app:icon="@drawable/baseline_search"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/idnew_menu"
@@ -19,9 +55,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         app:menu="@menu/new_menu"
-        app:labelVisibilityMode="labeled"
-
-
-        />
+        app:labelVisibilityMode="labeled"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

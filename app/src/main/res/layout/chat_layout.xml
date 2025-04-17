@@ -31,7 +31,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:hint="Pergunte a Ia "
+            android:hint="Pergunte à Meta AI ou pesquise "
             android:layout_below="@+id/Appbar"
             app:icon="@drawable/baseline_search"
             android:layout_height="wrap_content"
